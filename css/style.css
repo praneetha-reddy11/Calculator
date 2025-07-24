@@ -11,7 +11,7 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background: linear-gradient(to right, #0072ff, #00c6ff); /* Gradient background */
+    background: linear-gradient(to right, rgb(77, 1, 94), cyan); /* Gradient background */
     font-family: 'Roboto', sans-serif;
 }
 
@@ -65,13 +65,13 @@ button:active {
 
 /* Operators */
 button:nth-child(-n+4) {
-    background-color: #ffd166; /* Yellow for operators */
+    background-color: orange; /* Yellow for operators */
     color: #333;
     font-weight: bold;
 }
 
 button:nth-child(-n+4):hover {
-    background-color: #ffaa00; /* Darker yellow on hover */
+    background-color: orangered; /* Darker yellow on hover */
 }
 
 /* Clear button */
